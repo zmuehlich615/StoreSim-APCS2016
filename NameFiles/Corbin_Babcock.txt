@@ -1,1 +1,5 @@
+<<<<<<< Upstream, based on origin/master
 Corbin Babcock
+=======
+Corbin Babcock
+>>>>>>> db7e8bb Moved Name Files Over To Folder
