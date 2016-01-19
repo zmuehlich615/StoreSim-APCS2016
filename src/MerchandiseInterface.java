@@ -2,7 +2,7 @@ public interface MerchandiseInterface {
 	/**
 	 * Set the cost of the item to the customer
 	 */
-	int setCost(double cost);
+	void setCost(double cost);
 
 	/**
 	 * Get the cost of the item to the customer
@@ -19,7 +19,7 @@ public interface MerchandiseInterface {
 	/**
 	 * Set the cost of the item to the store
 	 */
-	int setStoreCost(double cost);
+	void setStoreCost(double cost);
 
 	/**
 	 * Get the cost of the item to the store
