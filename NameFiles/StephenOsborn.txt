@@ -1,1 +1,5 @@
+<<<<<<< Upstream, based on origin/master
 Stephen Osborn
+=======
+Stephen Osborn
+>>>>>>> f31a182 Still Moving Text Files
