@@ -67,4 +67,5 @@ public abstract class Food implements MerchandiseInterface {
 	public int getQuantity() {
 		return quantity;
 	}
+
 }
