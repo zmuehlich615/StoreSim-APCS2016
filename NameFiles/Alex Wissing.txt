@@ -1,5 +1,0 @@
-<<<<<<< Upstream, based on origin/master
-Alex Wissing
-=======
-Alex Wissing
->>>>>>> f31a182 Still Moving Text Files
