@@ -8,6 +8,5 @@ public class CannedAppleSauce extends Food{
 		setDesirability(0);
 		setName("Canned Apple Sauce");
 		setQuantity(100);
-		
 	}
 }
