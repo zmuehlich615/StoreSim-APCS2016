@@ -2,8 +2,8 @@ public abstract class Food implements MerchandiseInterface {
 	protected String name;
 	protected double cost;
 	protected double oldCost;
+	protected double storeCost;
 	protected int tempCostTime;
-	protected int storeCost;
 	protected int expiration;
 	protected int desirability;
 	protected int quantity;
@@ -13,7 +13,7 @@ public abstract class Food implements MerchandiseInterface {
 		cost = c;
 	}
 
-	public int getCost() {
+	public double getCost() {
 		return cost;
 	}
 
@@ -27,7 +27,7 @@ public abstract class Food implements MerchandiseInterface {
 		storeCost = c;
 	}
 
-	public int getStoreCost() {
+	public double getStoreCost() {
 		return storeCost;
 	}
 	
@@ -44,7 +44,7 @@ public abstract class Food implements MerchandiseInterface {
 		if(d >= 0 || d <= 2) {
 			desirability = d;
 		} else {
-			throw new Exception("Invalid desirability level");
+			System.out.println("Invalid Desirability on " + name);
 		}
 	}
 

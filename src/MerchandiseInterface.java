@@ -9,7 +9,7 @@ public interface MerchandiseInterface {
 	 * 
 	 * @return int value cost
 	 */
-	int getCost();
+	double getCost();
 
 	/**
 	 * Temporarily change the cost of the item to the customer
@@ -26,7 +26,7 @@ public interface MerchandiseInterface {
 	 * 
 	 * @return int value storeCost
 	 */
-	int getCost();
+	double getStoreCost();
 
 	/**
 	 * Change the cost of the item to the store
