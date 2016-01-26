@@ -1,3 +1,7 @@
+package interfaces.otherProducts;
+import interfaces.food.Food;
+
+//////TALK TO SKYLAR\\\\\\
 
 public class TherapeuticToiletPaper extends Food{
 	public TherapeuticToiletPaper() {

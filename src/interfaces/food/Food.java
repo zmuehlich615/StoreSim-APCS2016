@@ -1,3 +1,6 @@
+package interfaces.food;
+import interfaces.MerchandiseInterface;
+
 public abstract class Food implements MerchandiseInterface {
 	protected String name;
 	protected double cost;

@@ -1,3 +1,4 @@
+package interfaces;
 public interface MerchandiseInterface {
 	/**
 	 * Set the cost of the item to the customer

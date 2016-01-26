@@ -1,3 +1,4 @@
+package interfaces.food;
 
 public class CannedAppleSauce extends Food{
 	public CannedAppleSauce() {
