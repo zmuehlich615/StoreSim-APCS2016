@@ -3,32 +3,40 @@ public abstract class Food implements MerchandiseInterface {
 	protected double cost;
 	protected double oldCost;
 	protected double storeCost;
+	protected double oldStoreCost;
 	protected int tempCostTime;
+	protected int tempStoreCostTime;
 	protected int expiration;
 	protected int desirability;
 	protected int quantity;
 	protected boolean expired = false;
 
-	public void setCost(double c) {
-		cost = c;
+	public void setCost(double cost) {
+		this.cost = cost;
 	}
 
 	public double getCost() {
 		return cost;
 	}
 
-	public void changeCost(double c, int t) {
-		oldCost = cost;
-		cost = c;
-		tempCostTime = t;
+	public void changeCost(double cost, int time) {
+		oldCost = this.cost;
+		this.cost = cost;
+		tempCostTime = time;
 	}
 
-	public void setStoreCost(double c) {
-		storeCost = c;
+	public void setStoreCost(double cost) {
+		storeCost = cost;
 	}
 
 	public double getStoreCost() {
 		return storeCost;
+	}
+
+	public void changeStoreCost(double cost, int time) {
+		oldStoreCost = storeCost;
+		storeCost = cost;
+		tempStoreCostTime = time;
 	}
 	
 	public void setExpiration(int days) {
@@ -40,9 +48,9 @@ public abstract class Food implements MerchandiseInterface {
 		return expiration;
 	}
 
-	public void setDesirability(int d) {
-		if(d >= 0 || d <= 2) {
-			desirability = d;
+	public void setDesirability(int desirability) {
+		if(desirability >= 0 || desirability <= 2) {
+			this.desirability = desirability;
 		} else {
 			System.out.println("Invalid Desirability on " + name);
 		}
@@ -52,16 +60,16 @@ public abstract class Food implements MerchandiseInterface {
 		return desirability;
 	}
 
-	public void setName(String n) {
-		name = n;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	public String getName() {
 		return name;
 	}
 
-	public void setQuantity(int q) {
-		quantity = q;
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
 	}
 
 	public int getQuantity() {

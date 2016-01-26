@@ -1,19 +1,11 @@
 
 public class TherapeuticToiletPaper extends Food{
-	
-	public TherapeuticToiletPaper {
-		setCost(1.0);
-		getCost();
-		changeCost(.75, 1);
-		setStoreCost(.5);
-		getStoreCost();
-		setExpiration(3);
-		getExpiration();
-		setDesirability(3);
-		getDesirability();
+	public TherapeuticToiletPaper() {
 		setName("Therapeutic Toilet Paper");
-		String getName();
+		setCost(1.0);
+		setStoreCost(.5);
+		setExpiration(3);
+		setDesirability(3);
 		setQuantity(100);
-		getQuantity();
 	}
 }

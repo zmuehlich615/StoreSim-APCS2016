@@ -31,7 +31,7 @@ public interface MerchandiseInterface {
 	/**
 	 * Change the cost of the item to the store
 	 */
-	void changeStoreCost(double cost);
+	void changeStoreCost(double cost, int time);
 
 	/**
 	 * Set the date the item will expire based on day from now.
