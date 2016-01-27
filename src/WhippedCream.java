@@ -1,9 +1,10 @@
+package interfaces.food;
 
 public class WhippedCream extends Food {
-	name = "Whipped Cream";
-	cost = 0.40;
-	storeCost = 1.00;
-	quantity = 20;
-	expiration = 7;
-	desirability = 1;
+	setName = "Whipped Cream";
+	setCost = 0.40;
+	setStoreCost = 1.00;
+	setQuantity = 20;
+	setExpiration = 7;
+	setDesirability = 1;
 }
