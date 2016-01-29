@@ -1,12 +1,14 @@
+package interfaces.food;
 
-public abstract class Spaghetti extends Food {
-	public Spaghetti() {
-		desirability = 3;
-		expiration = 30;
-		name = "Spaghetti";
-		cost = 3;
-		storeCost = 1;
-		quantity = 20;
+public class Spaghetti extends Food {
+	public void Spaghetti() {
+		setName("Spaghetti");
+		setDesirability(3);
+		setExpiration(30);
+		setCost(3);
+		setStoreCost(1);
+		setQuantity(20);
 		
 	}
 }
+//
