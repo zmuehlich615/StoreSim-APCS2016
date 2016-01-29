@@ -1,3 +1,4 @@
+package interfaces;
 public interface MerchandiseInterface {
 	/**
 	 * Set the cost of the item to the customer
@@ -9,7 +10,7 @@ public interface MerchandiseInterface {
 	 * 
 	 * @return int value cost
 	 */
-	int getCost();
+	double getCost();
 
 	/**
 	 * Temporarily change the cost of the item to the customer
@@ -26,12 +27,12 @@ public interface MerchandiseInterface {
 	 * 
 	 * @return int value storeCost
 	 */
-	int getCost();
+	double getStoreCost();
 
 	/**
 	 * Change the cost of the item to the store
 	 */
-	void changeStoreCost(double cost);
+	void changeStoreCost(double cost, int time);
 
 	/**
 	 * Set the date the item will expire based on day from now.

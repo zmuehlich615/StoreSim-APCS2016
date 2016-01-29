@@ -10,4 +10,3 @@ public class Bananas extends Food {
 		setDesirability(2);
 	}
 }
-
