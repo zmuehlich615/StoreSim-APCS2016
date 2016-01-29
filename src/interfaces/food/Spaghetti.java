@@ -8,7 +8,5 @@ public class Spaghetti extends Food {
 		setCost(3);
 		setStoreCost(1);
 		setQuantity(20);
-		
 	}
 }
-//

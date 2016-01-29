@@ -1,4 +1,4 @@
-package org.mpsomaha.StoreSim;
+package interfaces.food;
 
 public class Ramen extends Food{
 	public void Ramen() {
@@ -8,6 +8,5 @@ public class Ramen extends Food{
 		setCost(1.00);
 		setQuantity(50);
 		setStoreCost(0.10);
-		
 	}
 }

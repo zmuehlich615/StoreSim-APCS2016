@@ -8,6 +8,5 @@ public class FruitSnacks extends Food {
 		setCost(3);
 		setStoreCost(1);
 		setQuantity(10);
-		
 	}
-}//
+}

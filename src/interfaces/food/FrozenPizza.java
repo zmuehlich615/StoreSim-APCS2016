@@ -1,8 +1,7 @@
+package interfaces.food;
 
-public class FrozenPizza {
-
-public class FrozenPizza extends food{
-	public Frozen Pizza{
+public class FrozenPizza extends Food {
+	public FrozenPizza() {
 		setName("Frozen Pizza");
 		setCost(4.00);
 		setStoreCost(2.00);
@@ -10,8 +9,4 @@ public class FrozenPizza extends food{
 		setExpiration(30);
 		setDesirability(3);
 	}
-	
-	
-}
-
 }

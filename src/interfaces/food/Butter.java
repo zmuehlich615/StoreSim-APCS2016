@@ -8,7 +8,5 @@ public class Butter extends Food {
 		setCost(2);
 		setStoreCost(3);
 		setQuantity(30);
-		
 	}
 }
-//

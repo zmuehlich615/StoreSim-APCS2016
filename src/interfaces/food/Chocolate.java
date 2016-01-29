@@ -1,4 +1,4 @@
-package org.mpsomaha.StoreSim;
+package interfaces.food;
 
 public class Chocolate extends Food {
 	public void Chocolate() {
