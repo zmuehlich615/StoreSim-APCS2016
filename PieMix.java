@@ -1,6 +1,6 @@
 package interfaces.food;
 public class PieMix  {
-public PieMix(){
+public void PieMix(){
 	setDesirability(1);
 	setCost(2.00);
 	setStoreCost(4.00);
